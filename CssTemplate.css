@@ -1,4 +1,9 @@
+
 body {
+  font-family: 'Montserrat';
+  padding: 0 10rem;
+}
+body, .class-title {
   background: #252B42;
 }
 .card {
@@ -6,19 +11,81 @@ body {
 }
 .button-blue {
   background: #23A6F0;
-  color: #FFFFFF;
 }
 .button-learn, .welcome-text {
   background: none;
   color:#23A6F0;
 }
-.nav-bar, .main-content {
+.nav-bar, .main-content, .button-blue {
   color: #FFFFFF;
-}
-.class-title {
-  color: #252B42;
 }
 .card-text {
   color:#737373;
 }
-  
+/* NAV BAR */
+.nav-bar, .nav-bar-right {
+  display: flex;
+  font-weight: 700;
+}
+.nav-bar-right {
+  margin-left: auto;
+}
+.nav-bar-right > p {
+  margin-right: 2rem;
+}
+
+button {
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  font-weight: 700;
+  border: none;
+}
+/* MAIN CONTENT */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.5rem;
+  padding: 6rem;
+}
+.main-content > p {
+  text-align: center;
+}
+.main-content > h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.info-buttons > button {
+  padding: 1rem 2.5rem;
+  margin: 0 0.25rem;
+}
+.button-learn {
+  border: solid #23A6F0 1px;
+}
+
+/* CARDS */
+.cards {
+  margin-top: 2rem;
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+}
+.card {
+  padding: 2rem;
+  width: 20rem;
+}
+.card > i {
+  background: #E74040;
+  padding: 1.75rem 1.5rem;
+  border-radius: 15%;
+  font-size: 1.75rem;
+  color: #FFFFFF;
+}
+.card-title {
+  font-weight: 700;
+}
+.line {
+  width: 2rem;
+  border-color: #E74040;
+  margin: 0;
+}
