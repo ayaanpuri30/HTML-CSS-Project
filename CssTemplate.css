@@ -1,0 +1,24 @@
+body {
+  background: #252B42;
+}
+.card {
+  background: #FFFFFF;
+}
+.button-blue {
+  background: #23A6F0;
+  color: #FFFFFF;
+}
+.button-learn, .welcome-text {
+  background: none;
+  color:#23A6F0;
+}
+.nav-bar, .main-content {
+  color: #FFFFFF;
+}
+.class-title {
+  color: #252B42;
+}
+.card-text {
+  color:#737373;
+}
+  
