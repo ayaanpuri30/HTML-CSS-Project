@@ -69,6 +69,7 @@ button {
   display: flex;
   column-gap: 2rem;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 .card {
   padding: 2rem;
