@@ -1,0 +1,104 @@
+body {
+    background-color: #252B42;
+}
+
+.tower-text {  /* text in the center of the webpage */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: 700;
+    padding-top: 10%;
+}
+
+.tower-text h3 {
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.tower-text h1 {
+    line-height: 10px;
+    font-size: 58px;
+}
+
+.tower-text p {
+    color: #23A6F0;
+    line-height: 24px;
+    font-size: 20px;
+}
+
+.buttons { /* code for row of buttons */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.button1 { /* left button */
+    width: fit-content;
+    background-color: #23A6F0;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    padding: 2px 30px;
+}
+
+.button2 { /* right button */
+    width: fit-content;
+    border-color: #23A6F0;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 5px;
+    color: #23A6F0;
+    padding: 2px 30px;
+}
+
+.panels { /* code for row of panels */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-bottom: 4%;
+}
+
+.panel-white {
+    background-color: white;
+    align-items: center;
+    width: 248px;
+    height: fit-content;
+    margin-right: 30px;
+    padding: 40px;
+}
+
+.panel-white p {
+    font-weight: 400;
+    color: #737373;
+}
+
+.red-box {
+    background-color: #E74040;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr { /* styles line in white box */
+    border-color: red;
+    margin-left: 0;
+    width: 40px;
+}
+
+i { /* styles icons in red boxes */
+    color: white;
+}
