@@ -1,0 +1,80 @@
+h4 {
+    color: rgb(17, 83, 206);
+    text-decoration: underline;
+    font-size: 1rem;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(7, 7, 157);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: beige;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.first {
+    font-size: 1rem;
+    font-weight: 600;
+    color: beige;
+    text-align: center;
+}
+
+.main {
+    display:flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 15px 32px;
+}
+
+.other-containers {
+    display:flex;
+    flex-direction: row;
+}
+
+.teacher {
+    border-color: beige;
+    background-color: beige;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.teacher2 {
+    border-color: beige;
+    background-color: beige;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.eval-time {
+    border-color: beige;
+    background-color: beige;
+    border-radius: 8px;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.second1 {
+    font-size: 1rem;
+    text-align: left;
+}
+.second2 {
+    font-size: 1rem;
+    text-align: left;
+}
+.second3 {
+    font-size: 1rem;
+    text-align: left;
+}
